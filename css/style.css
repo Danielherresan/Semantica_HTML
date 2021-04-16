@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+.page-title{
+    color: blue;
+}
+
+h1{
+    font-size: 2.4rem;
+}
+
+main div ~ p  {
+    color: coral;
+}
+main div > p {
+    color:darkblue;
+}
+div{
+    font-size: 20px;
+}
+main div > h1 {
+    font-size: 1.7em;
+}
